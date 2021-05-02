@@ -1,0 +1,79 @@
+@media only screen and (min-width:480px) {
+    header {
+        height: 120vh
+    }
+}
+
+@media only screen and (max-width:1150px) {
+    header nav {
+        margin: 0 15px
+    }
+    html {
+        font-size: 55.5%
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    header nav {
+        margin: 0 20px
+    }
+    html {
+        font-size: 53.5%
+    }
+    .footer-content {
+        width: 80%
+    }
+}
+
+@media only screen and (max-width:980px) {
+    header nav {
+        margin: 0 100px
+    }
+    .single-service,
+    .single-team {
+        width: 47%
+    }
+    .single-team {
+        width: 47%
+    }
+    .social-link {
+        width: 50%;
+        margin: 0 auto;
+        padding-bottom: 10%
+    }
+    .footer-content {
+        width: 90%
+    }
+}
+
+@media only screen and (max-width:935px) {
+    .portfolio-single,
+    .prgress-content {
+        width: 46%
+    }
+}
+
+@media only screen and (max-width:890px) {
+    eader nav {
+        margin: 0 20px
+    }
+    header .menu ul li {
+        float: none;
+        padding: 6px 0
+    }
+    .menu {
+        margin-right: 10%;
+        margin-bottom: 5%
+    }
+    header .menu ul a:hover {
+        border-bottom: 1px solid rgba(255, 255, 255, .6)
+    }
+    .single-service {
+        width: 90%;
+        padding: 0 5%;
+        margin-right: 0
+    }
+    .single-team {
+        width: 90%
+    }
+}
